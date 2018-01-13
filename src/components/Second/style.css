@@ -1,0 +1,25 @@
+.full-second {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: navy;
+  list-style-type: none;
+  padding: 0;
+  margin: 0
+}
+
+.full-second li {
+  padding: 5px 15px;
+  border: 1px solid blue;
+}
+
+.second-no-data {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: navy;
+}
