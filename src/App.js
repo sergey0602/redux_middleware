@@ -3,10 +3,6 @@ import First from './components/First';
 import Second from './components/Second';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>

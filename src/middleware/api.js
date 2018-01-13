@@ -14,7 +14,7 @@ class Api {
   static getSecondData() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        reject();
+        resolve(secondData);
       }, 1000);
     });
   }

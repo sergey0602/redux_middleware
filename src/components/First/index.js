@@ -23,7 +23,7 @@ class First extends Component {
 }
 
 const mapStateToProps = state => ({
-  data: state.firstState.data
+  data: state.common.firstData
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -1,10 +1,12 @@
 import { all } from 'redux-saga/effects';
-import firstDataAsync from './first';
-import secondDataAsync from './second';
+import firstData from './first';
+import secondData from './second';
+import getDataArray from './common';
 
 export default function * rootSaga() {
   yield all([
-    firstDataAsync(),
-    secondDataAsync()
+    firstData(),
+    secondData(),
+    getDataArray()
   ])
 }
