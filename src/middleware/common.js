@@ -28,6 +28,6 @@ function * getDataArrayAsync(action) {
 }
 
 export default function * getDataArray () {
-  yield takeEvery(FIRST_REQUEST, getDataArrayAsync);
-  yield takeEvery(SECOND_REQUEST, getDataArrayAsync);
+  const actions = [FIRST_REQUEST, SECOND_REQUEST];
+  yield takeEvery(actions, getDataArrayAsync);
 }

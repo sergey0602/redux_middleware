@@ -5,8 +5,8 @@ import getDataArray from './common';
 
 export default function * rootSaga() {
   yield all([
-    firstData(),
-    secondData(),
+    // firstData(),
+    // secondData(),
     getDataArray()
   ])
 }
